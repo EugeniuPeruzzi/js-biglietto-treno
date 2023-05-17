@@ -13,7 +13,7 @@ let under_18_price;
 let over_65_price;
 
 // Definisco i casi
-if (isNaN(travel_distance) || isNaN(user_age)){
+if (isNaN(travel_distance) || isNaN(user_age) || (user_age===0) || (travel_distance===0)){
     alert('Uno dei due numeri non e un numero');
 }
 
