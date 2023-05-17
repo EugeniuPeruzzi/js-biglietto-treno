@@ -14,7 +14,8 @@ let over_65_price;
 
 // Definisco i casi
 if (isNaN(travel_distance) && isNaN(user_age)){
-    console.log('Uno dei due numeri non e un numero');
+    alert('Uno dei due numeri non e un numero');
+
 
 }else if (user_age < 18){
     under_18_price = (full_price - (full_price * 20 / 100)).toFixed(2);
